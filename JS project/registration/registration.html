@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <form id="signUpForm">
+                <h2>Sign Up</h2>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <label for="registrationDate">Registration Date:</label>
+                <input type="date" id="registrationDate" name="registrationDate" required>
+
+                <label for="customerName">Name of the Customer:</label>
+                <input type="text" id="customerName" name="customerName" required>
+
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" required>
+
+                <button type="button" onclick="validateSignUp()">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="registration.js"></script>
+</body>
+</html>
