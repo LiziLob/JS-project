@@ -9,8 +9,11 @@ function submitForm() {
         return;
     }
 
-    // You can perform further actions like sending the form data to a server here
-
-    // For this example, let's just show an alert
     alert('Form submitted successfully:\n\nName: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+}
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'en', autoDisplay: false }, 'google_translate_element');
+}
+function translatePage() {
+    google.translate.translatePage('de');
 }
